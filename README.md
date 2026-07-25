@@ -49,8 +49,6 @@ cp .env.example .env   # fill in DB credentials and odds API key
 python predict.py
 ```
 
-> `.env` is gitignored — never commit real credentials. Use `.env.example` with placeholder values to document required variables.
-
 ## Testing
 
 ```bash
